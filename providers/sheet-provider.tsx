@@ -12,9 +12,6 @@ import { NewTransactionSheet } from "@/features/transactions/components/new-tran
 import { EditTransactionSheet } from "@/features/transactions/components/edit-transaction-sheet";
 
 export const SheetProvider = () => {
-  // hydration error
-  // const isMounted = useMountedState();
-  // if (!isMounted) return null;
 
   const [isMounted, setIsMounted] = useState(false);
 
